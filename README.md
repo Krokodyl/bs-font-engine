@@ -12,15 +12,15 @@ Font provided in the BS-X bios.<br/>
 This font is mostly mapped on the [Shift-JIS](https://en.wikipedia.org/wiki/Shift_JIS) standard where every character is coded by two bytes.<br/>
 
 The narrow latin alphabet seems to be based on one of the [JIS X extension](https://en.wikipedia.org/wiki/Shift_JIS#Other_variants).<br/>
-Three characters differ from ASCII:<br/>
+A few characters differ from ASCII:<br/>
 
-0x5C    is ¥ instead of backslash \ <br/>
-0x60    is a white space instead of backtick `<br/>
-0x7E    is an underscore instead of tilde ~<br/>
+0x5C    is ¥ (Yen symbol) instead of \ (backslash) <br/>
+0x5F    is - (dash identical to 0x2D) instead of _ (underscore)<br/>
+0x60    is a whitespace instead of ` (backtick)<br/>
+0x7E    is _ (underscore) instead of ~ (tilde)<br/>
 
 
 [Shift-JIS Complete Table](http://www.rikai.com/library/kanjitables/kanji_codes.sjis.shtml)
-
 
 | Offset      | Content                           | Comment                                                                                  |
 |-------------|-----------------------------------|------------------------------------------------------------------------------------------|
